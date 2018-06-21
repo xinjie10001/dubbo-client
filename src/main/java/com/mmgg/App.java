@@ -1,5 +1,5 @@
-import com.mmgg.DemoService;
-import com.mmgg.UserService;
+package com.mmgg;
+
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class App {

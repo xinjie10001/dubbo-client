@@ -18,8 +18,8 @@
 
     <dubbo:protocol name="hessian" port="8888"/>
 
-    <dubbo:reference interface="com.mmgg.UserService" id="userService" protocol="dubbo" check="false"/>
+    <dubbo:reference interface="com.mmgg.UserService" id="userService" protocol="dubbo" mock="com.mmgg.TestMock" timeout="1"/>
 
-    <dubbo:reference interface="com.mmgg.DemoService" id="demoService" protocol="dubbo" check="false"/>
+    <dubbo:reference interface="com.mmgg.DemoService" id="demoService" protocol="dubbo" />
 
 </beans>
